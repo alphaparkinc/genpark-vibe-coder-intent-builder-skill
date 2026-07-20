@@ -1,0 +1,31 @@
+{
+  "name": "genpark-vibe-coder-intent-builder-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Vibe coding intent-to-code scaffold generator for non-technical users.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "vibe-coding",
+    "code-gen",
+    "no-code",
+    "intent"
+  ],
+  "inputs": {
+    "business_intent": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "code_scaffold": {
+      "type": "array"
+    },
+    "tech_stack": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
